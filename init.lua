@@ -23,7 +23,7 @@ obj.config = {
     modifier = {"ctrl", "alt"},
     animationDuration = 0,
     dragZoneSize = 75,
-    mouseThrowing = true,
+    mouseThrowing = false,
     drawTargetSizeOnDrag = true,
 }
 

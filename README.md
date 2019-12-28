@@ -45,5 +45,5 @@ Magneto exposes some configuration options that you can use to change how the pl
 * `config["modifier"]` -- (**Default**: `{"ctrl", "alt"}`). The modifier keys that you'll have to hold down in addition to the shortcuts listed above to move windows.
 * `config["animationDuration"]` -- (**Default**: 0). The number of seconds that window movement animations will take to complete. Decimals are fine.
 * `config["dragZoneSize"]` -- (**Default**: 75). The size in pixels that a one-unit drag zone will take up. Probably don't change this unless you know what you're doing. See `obj:getThrowableZones()` for how this gets used.
-* `config["mouseThrowing"]` -- (**Default**: true). Whether or not mouse support is enabled. When enabled, you can drag a window to a drop zone on an edge of the screen to resize it (in addition to using the keyboard shortcuts).
+* `config["mouseThrowing"]` -- (**Default**: false). Whether or not mouse support is enabled. When enabled, you can drag a window to a drop zone on an edge of the screen to resize it (in addition to using the keyboard shortcuts).
 * `config["drawTargetSizeOnDrag"]` -- (**Default**: true). If mouse support is enabled, this will cause the plugin to draw a screen overlay showing where a window will end up when you let go of the mouse button. If `mouseThrowing` is disabled, this setting has no effect.
